@@ -7,25 +7,27 @@
     <title>Akan Name Finder</title>
     <img src="flag.jpeg" alt="flag">
 </head>
-
-
 <body>
-    <h1><strong>Find Your Akan Name!</strong></h1>
-    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first names as their 'day name' which corresponds to the day in the week they were born</p>
-    <form id="akanForm">
-        <label for="birthday">Enter Your Date of Birth:</label><br>
-        <input type="date" id="birthday" required><br>
-        <label for="gender">Select Gender:</label><br>
-        <select id="gender" required>
-          <option value="">Select Gender</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select><br>
-        <button type="submit">Find My Akan Name</button>
-      </form>
-      <div class="output" id="output"></div>
-    
-      <script src="script.js"></script>
-    
+    <div class="container">
+        <h1><strong>Find Your Akan Name!</strong></h1>
+        <p>Akan names are derived from Ghanaian culture. Children are given names based on the day of the week they were born.</p>
+        <form id="akanForm">
+            <label for="birthday">Enter Your Date of Birth:</label>
+            <input type="date" id="birthday" required>
+            
+            <label for="gender">Select Gender:</label>
+            <select id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            
+            <button type="submit">Find My Akan Name</button>
+        </form>
+
+        <div class="output" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
