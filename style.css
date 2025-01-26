@@ -1,18 +1,49 @@
-body{
+body {
     text-align: center;
     text-decoration: none;
-    background-color: gold;
-}
-h1{
-    text-decoration: underline;
-    font-style: normal;
-    font-size: 50px;
-}
-p{
-    font-size: 25px;
-    
+    background-color: #f8f9fa; /* Light gray for a modern minimalist feel */
+    color: #333; /* Dark gray for text */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    margin: 0;
+    padding: 0;
 }
 
-form{
-    font-size: 30px
+h1 {
+    text-decoration: none; /* Removing underline for simplicity */
+    font-size: 48px; /* Slightly smaller and consistent scaling */
+    font-weight: bold;
+    color: #2c3e50; /* Sleek dark tone */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px; /* Smaller for a minimalist feel */
+    color: #555; /* Softer gray tone for body text */
+    margin: 10px 0;
+}
+
+form {
+    font-size: 20px; /* Subtle and modern */
+    color: #444; /* Consistent with other elements */
+    margin: 15px 0;
+    border: 1px solid #ddd; /* Adding a border for structure */
+    padding: 15px;
+    border-radius: 8px; /* Soft rounded corners */
+    background-color: #ffffff; /* Clean white for form background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Sleek blue accent for buttons */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
